@@ -1,0 +1,298 @@
+/*Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+main {
+    margin-top: 100px;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
+/*---------------------------------------THỜI TRANG----------------------------------------*/
+.thoitrang {
+    max-width: 1000px;
+    margin: 20px auto;
+}
+.thoitrang h2 {
+    margin-bottom: 15px;
+}
+/*---------------------------------------*/
+.tinchinh-thoitrang img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom:  15px;
+}
+.tinchinh-thoitrang .noidung-thoitrang {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1; /* Giúp phần nội dung chiếm phần còn lại */
+    gap: 15px;
+}
+.tinchinh-thoitrang .noidung-thoitrang h3{
+    margin: 0;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.tinchinh-thoitrang p {
+    margin: 0;
+    font-size: 15px;
+    color: #555;
+}
+.tinchinh-thoitrang .thoi-gian{
+    font-style: italic;
+    color: #888;
+    font-size: 11px;
+    margin-bottom: 15px;
+}
+/*---------------------------------------*/
+.thanhben-thoitrang {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.thanhben-thoitrang .tinphu-thoitrang {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.thanhben-thoitrang .tinphu-thoitrang img {
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.thanhben-thoitrang .tinphu-thoitrang .noidung-thoitrang {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1; /* Giúp phần nội dung chiếm phần còn lại */
+}
+.thanhben-thoitrang .tinphu-thoitrang h3 {
+    margin: 0;
+    font-size: 17px;
+    color: #000000;
+    margin-bottom: 5px;
+}
+.thanhben-thoitrang .tinphu-thoitrang p {
+    margin: 0;
+    font-size: 15px;
+    color: #555;
+}
+.thanhben-thoitrang .tinphu-thoitrang .thoi-gian {
+    font-style: italic;
+    color: #888;
+    font-size: 11px;
+    margin-bottom: 15px;
+}
+/*---------------------------------------XEM THÊM----------------------------------------*/
+.xem-them {
+    display: block;
+    text-align: center;
+    margin: 50px auto 50PX auto;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: black;
+    cursor: pointer;
+    font-size: 16px;
+    border-bottom: 3px solid #000000;
+    border-left: 3px solid #000000;
+    border-right: 3px solid #000000;
+    border-top: 3px solid #000000;
+}
+.xem-them:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+/*---------------------------------------POSTER----------------------------------------*/
+.poster img {
+    width: 100%;
+    max-width: 1000px; /* Giới hạn kích thước tối đa */
+    height: 200px;
+    max-height: 500px;
+    display: block;
+    margin: 150px auto; /* Căn giữa theo chiều ngang */
+}
+/*---------------------------------------LÀM ĐẸP----------------------------------------*/
+.lamdep {
+    max-width: 100%;
+    height: 650px;
+    margin: auto;
+    margin-top: 150px;
+    padding-top: 30px;
+    background-color: #fdf2fa;
+}
+.lamdep h3 {
+    font-size: 40px;
+    padding-left: 17%;
+    margin: 40px auto 40px auto;
+}
+/*---------------------------------------*/
+.noidung-lamdep {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+    padding-left: 17%;
+    padding-right: 17%;
+    padding-bottom: 50px;
+}
+/*---------------------------------------*/
+.item-lamdep {
+    width: 23%;
+    background: white;
+    overflow: hidden;
+    background-color: transparent;
+}
+.item-lamdep img {
+    width: 100%;
+    height: 50%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.item-lamdep p {
+    margin: 20px 0 20px 0;
+    font-size: 20px;
+    text-align: left; /* Căn chữ về bên trái */
+}
+/*---------------------------------------CỬA HÀNG----------------------------------------*/
+.cuahang {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.cuahang h3 {
+    font-size: 40px;
+    margin: 20px 0;
+}
+/*---------------------------------------*/
+.noidung-cuahang {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+    padding: 60px;
+}
+/*---------------------------------------*/
+.item-cuahang img {
+    width: 100%;
+    border-radius: 5px;
+    display: block;
+    text-align: left;
+}
+.item-cuahang p {
+    font-size: 13px;
+    display: block;
+    text-align: left;
+    margin-top: 5px;
+    color: #000000;
+    padding-left: 5px;
+}
+.item-cuahang p del {
+    color: #888;
+    padding-left: 0px;
+}
+/*---------------------------------------*/
+.masanpham {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.logo {
+    font-size: 13px;
+    font-weight: bold;
+}
+.code {
+    font-size: 13px;
+}
+/*---------------------------------------*/
+.tensanpham-cuahang {
+    font-size: 20px;
+    display: block;
+    text-align: left;
+    margin-top: 20px;
+}
+/*---------------------------------------VĂN HÓA----------------------------------------*/
+.vanhoa {
+    max-width: 1000px;
+    margin: 10px auto;
+}
+.vanhoa h2 {
+    margin: 55px auto;
+}
+/*---------------------------------------*/
+.tinchinh-vanhoa img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom:  15px;
+}
+.tinchinh-vanhoa .noidung-vanhoa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1; /* Giúp phần nội dung chiếm phần còn lại */
+    gap: 15px;
+}
+.tinchinh-vanhoa .noidung-vanhoa h3{
+    margin: 0;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.tinchinh-vanhoa p {
+    margin: 0;
+    font-size: 15px;
+    color: #555;
+}
+.tinchinh-vanhoa .thoi-gian{
+    font-style: italic;
+    color: #888;
+    font-size: 11px;
+    margin-bottom: 15px;
+}
+/*---------------------------------------*/
+.thanhben-vanhoa {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.thanhben-vanhoa .tinphu-vanhoa {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.thanhben-vanhoa .tinphu-vanhoa img {
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.thanhben-vanhoa .tinphu-vanhoa .noidung-vanhoa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1; /* Giúp phần nội dung chiếm phần còn lại */
+}
+.thanhben-vanhoa .tinphu-vanhoa h3 {
+    margin: 0;
+    font-size: 17px;
+    color: #000000;
+    margin-bottom: 5px;
+}
+.thanhben-vanhoa .tinphu-vanhoa p {
+    margin: 0;
+    font-size: 15px;
+    color: #555;
+}
+.thanhben-vanhoa .tinphu-vanhoa .thoi-gian {
+    font-style: italic;
+    color: #888;
+    font-size: 11px;
+    margin-bottom: 15px;
+}
+
+

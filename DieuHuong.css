@@ -1,0 +1,64 @@
+.dieuhuong {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border : none;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+/*---------------------------------------*/
+.dieuhuong-trai .timkiem {
+    padding: 8px;
+    width: 125px;
+    border : none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    background-color: transparent;
+}
+/*---------------------------------------*/
+.dieuhuong-giua {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.dieuhuong-giua .logo {
+    font-size: 34px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+.menu {
+    list-style: none;
+    display: flex;
+}
+.menu li {
+    margin: 0 15px;
+}
+.menu li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.menu li a:hover {
+    color: rgb(149, 149, 149);
+}
+/*---------------------------------------*/
+.dieuhuong-phai {
+    display: flex;
+    align-items: center;
+}
+.dieuhuong-phai a {
+    font-size: 10px;
+    text-decoration: none;
+    color: black;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Ký</title>
+    <link rel="stylesheet" href="css/DangKy.css">
+    <link rel="stylesheet" href="css/DieuHuong.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+    <script src="#" defer></script>
+</head>
+<body>
+    <header>
+        <!-- Thanh điều hướng -->
+        <nav class="dieuhuong" style="border-bottom: 1px solid #000000;">
+            <div class="dieuhuong-trai">
+                <input type="text" class="timkiem"; placeholder="TÌM KIẾM">
+            </div>
+            <div class="dieuhuong-giua">
+                <a href="TrangChu.html" class="logo">SHIN</a>
+                <ul class="menu">
+                    <li><a href="#">THỜI TRANG</a></li>
+                    <li><a href="#">VĂN HÓA</a></li>
+                    <li><a href="#">LÀM ĐẸP</a></li>
+                    <li><a href="#">CỬA HÀNG</a></li>
+                </ul>
+            </div>
+            <div class="dieuhuong-phai">
+                <a href="#">CỬA HÀNG</a>
+                <a href="#">TÀI KHOẢN</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="dangkytaikhoan">
+            <h2>ĐĂNG KÝ TÀI KHOẢN</h2>
+            <form>
+                <label for="taikhoan">Tài Khoản *</label>
+                <div class="input-group">
+                    <input type="text" id="taikhoan" placeholder="Nhập số điện thoại hoăc gmail của Quý khách">
+                    <button type="button">GỬI MÃ OTP</button>
+                </div>
+                
+                <label for="otp">OTP *</label>
+                <input type="text" id="otp" placeholder="Nhập mã OTP được gửi tới điện thoại của Quý khách">
+                
+                <label for="hovaten">Họ và tên *</label>
+                <input type="text" id="hovaten" placeholder="Nhập họ và tên của Quý khách">
+                
+                <label for="sinhnhat">Sinh nhật *</label>
+                <input type="date" id="sinhnhat">
+                
+                <label>Đối tượng *</label>
+                <div class="gender-group">
+                    <input type="radio" name="gender" id="male"><label for="male">NAM</label>
+                    <input type="radio" name="gender" id="female"><label for="female">NỮ</label>
+                </div>
+                
+                <label for="matkhau">Mật khẩu *</label>
+                <input type="password" id="matkhau" placeholder="Nhập mật khẩu của Quý khách">
+                
+                <label for="xacnhanmatkhau">Nhập lại mật khẩu *</label>
+                <input type="password" id="xacnhanmatkhau" placeholder="Xác nhận mật khẩu đã nhập ở trên">
+                
+                <a  href="DangNhap.html" > <button class="dangky"  type="button">Đăng Ký</button> </a>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-1">
+              <a href="#"><h2>SHIN FASHION</h2></a>
+              <p><b>Hỗ Trợ</b></p>
+              <h6>
+                Liên Hệ Chúng Tôi<br><br>
+                Câu Hỏi Thường Gặp<br><br>
+                Điều Khoản Và Điều Kiện<br><br>
+                Chính sách bảo mật<br><br>
+              </h6>
+            </div>
+            <div class="footer-2">
+                <p><b>100%</b> Đảm Bảo <b>Nguyên Bản</b></p>
+                <p><b>Đổi trả hàng trong vòng 30 ngày</b> từ ngày mua</p>
+                <p><b>Cập nhập tin tức thời trang</b> mỗi ngày</p>
+            </div>
+          </div>
+          <p class="logo-footer"><a href="#">SHIN</a>&copy;2025</p>
+    </footer>
+</body>
